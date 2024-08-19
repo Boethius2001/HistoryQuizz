@@ -1,0 +1,32 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Results</title>
+    <link rel="stylesheet" href="QuestionStyle.css">
+</head>
+<body>
+    <div class="boxLeft">
+        <h1><u>Your Answers</u></h1>
+        <ol id="UserInput"></ol>
+    </div>
+    <div class="box" style="width: 400; margin: auto;">
+        <div class="QuizPage">
+            <h1>Your score </h1>
+            <h1 id="deneme"></h1>
+        </div>
+    </div>
+    <div class="boxRight">
+        <h1><u>Correct Answers</u></h1>
+        <ol id="CorrectAnswers"></ol>
+    </div>
+
+    <script src="Questions.js"></script>
+
+    <div style="text-align: center;">
+        <a href="../index.html">
+            <button class="ButtonUI" onclick="ResetAnswers()" >Main Page</button>
+        </a>
+    </div>
+</body>
+</html>
